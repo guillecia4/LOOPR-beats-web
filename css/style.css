@@ -131,10 +131,11 @@ background-position: center;
 
     background-color: white;
 
-    color: white;
+    color: rgb(0, 0, 0);
 
     cursor: pointer;
 }
+
 
 
 .beat{
@@ -169,7 +170,7 @@ background-position: center;
     color: white;
     margin: 20px 50px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px
+    font-size: 30px;
     
 }
 
@@ -211,19 +212,19 @@ background-position: center;
 .beneficio h4{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    justify-content: center;
-    align-items: center;
-
-
+    
 }
 
 .beneficios{
 
     display: flex;
-    margin: 300px 300px;
-    margin-top: 400px;
-    justify-content: space-between;
-    align-items: center;
+
+    justify-content: space-around;
+
+    padding: 100px 50px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+
 }
 
 .img-icon{
@@ -231,13 +232,43 @@ background-position: center;
     width: 300px;
 }
 
+.beneficio{
+    display: flex;
+     flex-direction: column;
+
+    align-items: center;
+}
+
 footer{
-    background-color: grey
 
+    background-color: #3a3a3a;
 
+    padding: 30px;
 
+    margin-top: 100px;
 }
 .info{
-    font-family: Arial, Helvetica, sans-serif
-    
+
+    text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+   
 }
+
+.info h2{
+
+    color: white;
+
+    font-size: 20px;
+
+    font-weight: normal;
+}
+
+button:hover{
+    background-color: darkred;
+}
+
+nav a:hover{
+    color: red;
+}
+
