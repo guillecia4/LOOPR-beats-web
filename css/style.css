@@ -272,3 +272,261 @@ nav a:hover{
     color: red;
 }
 
+.detalle-beat{
+
+    display: flex;
+
+    gap: 40px;
+
+    padding: 50px;
+}
+
+.portada-beat{
+
+    width: 350px;
+
+    border-radius: 5px;
+
+    
+}
+.derecha {
+    margin-top: 25px;
+}
+
+.derecha h1{
+
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 45px;
+
+    margin-bottom: 30px;
+}
+
+.datos-beat{
+
+    display: flex;
+
+    gap: 20px;
+
+    margin-bottom: 30px;
+}
+
+.dato{
+
+    background-color: white;
+
+    width: 120px;
+
+    padding: 15px;
+
+    text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dato h3{
+
+    font-size: 28px;
+}
+
+.dato p{
+
+    font-size: 14px;
+}
+
+.caja-compra{
+
+    background-color: #d9d9d9;
+
+    width: 400px;
+
+    padding: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-bottom: 30px;
+}
+
+.tabs{
+
+    display: flex;
+
+    margin-bottom: 40px;
+}
+
+.tab-activa{
+
+    background-color: #4a4a4a;
+
+    color: white;
+
+    padding: 10px 40px;
+
+    font-size: 14px;
+}
+
+.tab{
+
+    background-color: #bfbfbf;
+
+    padding: 10px 40px;
+
+    font-size: 14px;
+}
+
+.compra-info{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.compra-info h2{
+
+    font-size: 32px;
+
+    font-weight: normal;
+}
+
+.descripcion{
+
+    color: #bdbdbd;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+
+    width: 450px;
+    max-width: 415px;
+   
+}
+
+.mas-productor{
+
+    padding: 50px;
+}
+
+.mas-productor h2{
+
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 35px;
+
+    margin-bottom: 20px;
+}
+
+.linea{
+
+    height: 2px;
+
+    background-color: white;
+
+    margin-bottom: 50px;
+}
+
+.otros-beats{
+
+    display: flex;
+
+    gap: 30px;
+}
+
+.card-productor{
+
+    background-color: #d9d9d9;
+
+    padding: 15px;
+
+    width: 220px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-productor img{
+
+    width: 100%;
+
+    margin-bottom: 15px;
+}
+
+.card-productor h3{
+
+    margin-bottom: 5px;
+}
+
+.card-productor p{
+
+    color: gray;
+}
+
+.perfil-productor{
+
+    background-color: #d9d9d9;
+
+    margin-top: 20px;
+
+    padding: 15px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    width: 350px;
+}
+
+.foto-productor{
+
+    width: 60px;
+
+    height: 60px;
+
+    border-radius: 50%;
+}
+
+.texto-productor{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-productor h3{
+
+    font-size: 18px;
+
+    margin-bottom: 5px;
+}
+
+.texto-productor a{
+
+    color: gray;
+
+    text-decoration: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 12px;
+}
+
+.volver{
+
+    color: white;
+
+    text-decoration: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 14px;
+
+    display: block;
+
+    margin-bottom: 20px;
+}
