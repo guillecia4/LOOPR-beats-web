@@ -31,6 +31,8 @@ header{
 nav{
     display: flex;
 
+    font-family: Arial, Helvetica, sans-serif;
+
     gap: 20px;
 }
 
@@ -271,6 +273,7 @@ button:hover{
 nav a:hover{
     color: red;
 }
+
 
 .detalle-beat{
 
@@ -557,7 +560,7 @@ margin-top: 50px;
 
 .caja-pedido h2{
 
-    color: white;
+    color: rgb(0, 0, 0);
 
     font-family: Arial, Helvetica, sans-serif;
 
@@ -748,4 +751,13 @@ margin-top: 50px;
     margin-bottom: 20px;
     margin-left: 50px;
     margin-top: 50px;
+}
+
+.botoncomprabeat{
+    color: white;
+
+    text-decoration: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+
 }
