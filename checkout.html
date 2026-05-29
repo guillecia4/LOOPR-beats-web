@@ -109,32 +109,39 @@
             <div class="metodo">PAYPAL</div>
 
         </div>
+        <form action="" method="post">
 
         <div class="formulario">
 
-            <label>EMAIL PARA ENVIO</label>
+            <form action="" method="post">
 
-            <input type="email" placeholder="...">
+            <label for="emailinput">EMAIL PARA ENVIO</label>
 
-            <label>NOMBRE DEL TITULAR</label>
+            <input type="email" name="email" placeholder="..." id="emailinput" required>
 
-            <input type="text" placeholder="...">
+            <label for="nombreinput">NOMBRE DEL TITULAR</label>
+
+            <input type="text" name="nombretitular" placeholder="..." id="nombreinput" required>
+            
+            
 
             <div class="formulario-dos">
 
                 <div class="input">
 
-                    <label>NUMERO</label>
+                    <label for="numeroinput">NUMERO</label>
 
-                    <input type="text" placeholder="...">
+                    <input type="number" name="numerotarjeta" placeholder="..." id="numeroinput" required>
 
                 </div>
 
                 <div class="input">
 
-                    <label>CVC</label>
+                    <label for="cvcinput">CVC</label>
 
-                    <input type="text" placeholder="...">
+                    <input type="number" name="cvc" placeholder="..." id="cvcinput" required>
+
+               
 
                 </div>
 
@@ -143,6 +150,7 @@
             <button class="boton-pagar">PAGAR AHORA</button>
 
         </div>
+    </form>
 
     </div>
 
