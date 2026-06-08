@@ -761,3 +761,153 @@ margin-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
+.pago-exitoso{
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    padding: 50px;
+}
+
+.confirmacion{
+
+    text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: white;
+}
+
+.check{
+
+    width: 200px;
+
+    margin-bottom: 20px;
+}
+
+.confirmacion h1{
+
+    font-size: 55px;
+
+    margin-bottom: 10px;
+}
+
+.descarga{
+
+    background-color: #d9d9d9;
+
+    width: 700px;
+
+    padding: 25px;
+
+    margin-top: 40px;
+
+    text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.archivo{
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    margin-bottom: 30px;
+}
+
+.info-archivo h3{
+
+    margin-right: 180px;
+    margin-bottom: 5px;
+}
+
+
+.archivo img{
+
+    width: 85px;
+    
+}
+
+.btn-descarga{
+
+    width: 100%;
+
+    background-color: #8f8f8f;
+
+    color: black;
+
+    height: 80px;
+
+    margin-bottom: 15px;
+}
+
+.pasos{
+
+    width: 700px;
+
+    margin-top: 50px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pasos h2{
+
+    color: white;
+
+    font-size: 40px;
+
+    margin-bottom: 20px;
+}
+
+.paso{
+
+    background-color: white;
+
+    padding: 20px;
+
+    display: flex;
+
+    gap: 15px;
+
+    align-items: center;
+}
+
+.paso span{
+
+    font-size: 30px;
+
+    font-weight: bold;
+}
+
+.volver-home{
+
+    margin-top: 120px;
+}
+
+.volver-home button{
+
+    width: 400px;
+
+    height: 50px;
+
+    background-color: #8f8f8f;
+
+    color: black;
+}
+
+.volver-home a{
+    text-decoration: none;
+    color: black;
+}
+
+.boton-pagar a{
+    text-decoration: none;
+    color: black;
+}
