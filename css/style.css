@@ -911,3 +911,98 @@ margin-top: 50px;
     text-decoration: none;
     color: black;
 }
+
+
+.explorar{
+
+    padding: 50px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.explorar h1{
+
+    color: white;
+
+    font-size: 50px;
+
+    margin-bottom: 30px;
+}
+
+.filtros{
+
+    display: flex;
+
+    gap: 20px;
+}
+
+.filtros select{
+
+    padding: 12px;
+
+    width: 180px;
+
+    background-color: white;
+
+    border: none;
+}
+
+.lista-explorar{
+
+    padding: 0 50px 50px;
+}
+
+.beat-explorar{
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    background-color: white;
+
+    padding: 15px;
+
+    border-radius: 15px;
+
+    margin-bottom: 20px;
+}
+
+.beat-explorar button{
+
+    width: 120px;
+
+    height: 45px;
+
+    border-radius: 10px;
+
+    background-color: #b31212;
+
+    color: white;
+
+    border: none;
+}
+
+.busqueda-explorar{
+
+    display: flex;
+
+    margin-top: 25px;
+}
+
+.busqueda-explorar input{
+
+    width: 525px;
+
+    padding: 15px;
+
+    border: none;
+}
+
+.busqueda-explorar button{
+
+    background-color: white;
+
+    color: black;
+}
