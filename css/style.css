@@ -224,7 +224,7 @@ background-position: center;
     justify-content: space-around;
 
     padding: 100px 50px;
-    margin-top: 300px;
+    margin-top: 100px;
     margin-bottom: 300px;
 
 }
@@ -1099,6 +1099,7 @@ margin-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
 
     margin-left: 50px;
+    margin-right: 50px;
 }
 
 .faq h2{
