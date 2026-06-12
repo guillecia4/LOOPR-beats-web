@@ -1006,3 +1006,234 @@ margin-top: 50px;
 
     color: black;
 }
+
+.soporte{
+
+    padding: 50px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.soporte h1{
+
+    color: white;
+
+    font-size: 50px;
+
+    margin-bottom: 20px;
+}
+
+.soporte h2{
+
+    color: white;
+
+    margin-bottom: 30px;
+
+    font-size: 24px;
+}
+
+.form-soporte{
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: 700px;
+
+    gap: 10px;
+}
+
+.form-soporte label{
+
+    color: white;
+
+    font-size: 14px;
+
+    margin-top: 10px;
+}
+
+.form-soporte input{
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    font-size: 14px;
+}
+
+.form-soporte textarea{
+
+    height: 180px;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    resize: none;
+
+    font-size: 14px;
+}
+
+.form-soporte button{
+
+    margin-top: 20px;
+
+    width: 250px;
+
+    height: 50px;
+
+    font-weight: bold;
+}
+
+
+.faq{
+
+    margin-top: 180px;
+
+    width: 700px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-left: 50px;
+}
+
+.faq h2{
+
+    color: white;
+
+    margin-bottom: 30px;
+}
+
+.faq details{
+
+    background-color: white;
+
+    margin-bottom: 15px;
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.faq summary{
+
+    cursor: pointer;
+
+    font-weight: bold;
+}
+
+.faq p{
+
+    margin-top: 15px;
+
+    color: #555;
+}
+
+.soporte-main{
+
+display: flex;
+}
+
+.preguntas{
+
+    margin-top: 68px;
+
+}
+
+.generos{
+
+    padding: 50px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-generos{
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 30px;
+}
+
+.card-genero{
+
+    position: relative;
+
+    height: 250px;
+
+    overflow: hidden;
+
+    border-radius: 15px;
+
+    cursor: pointer;
+}
+
+.card-genero img{
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.card-genero h2{
+
+    position: absolute;
+
+    bottom: 20px;
+
+    left: 20px;
+
+    color: white;
+
+    font-size: 35px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-genero .titulo-negro{
+    color: black;
+}
+
+
+
+.card-genero:hover{
+
+    transform: scale(1.02);
+
+    transition: 0.3s;
+}
+
+.genero-detalle{
+
+    padding: 50px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.genero-detalle h1{
+
+    color: white;
+
+    font-size: 60px;
+
+    margin-top: 20px;
+
+    margin-bottom: 15px;
+}
+
+.genero-detalle p{
+
+    color: #bdbdbd;
+
+    font-size: 18px;
+
+    margin-bottom: 50px;
+}
