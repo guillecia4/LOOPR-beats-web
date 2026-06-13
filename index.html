@@ -7,6 +7,11 @@
 
     <title>Loopr</title>
 
+    <link
+rel="stylesheet"
+href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+/>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -29,7 +34,9 @@
             <a href="soporte.html">SOPORTE</a>
         </nav>
 
-    <button>SUBIR BEAT</button>
+    <a href="subir-beat.html" class="btn-header">
+    SUBIR BEAT
+</a>
 
  </div>
 
@@ -70,7 +77,7 @@
 
 
         <!-- BEATS DESTACADOS -->
-<section class="beats">
+<section class="beats" data-aos="fade-up">
 
    <h2>BEATS DESTACADOS</h2>
 
@@ -85,7 +92,7 @@
                 <p>TRAP|140BPM|Cm</p>
             </div>
 
-            <button><a class="botoncomprabeat" href="beat.html">COMPRAR</a></button>
+            <button><a class="botoncomprabeat" href="beat1.html">COMPRAR</a></button>
 
         </div>
 
@@ -98,7 +105,7 @@
                 <p>BOOM BAP|90BPM|D#</p>
             </div>
 
-            <button>COMPRAR</button>
+            <button><a class="botoncomprabeat" href="beat2.html">COMPRAR</a></button>
 
         </div>
 
@@ -111,7 +118,7 @@
                 <p> REGGAETON|100BPM|Amaj</p>
             </div>
 
-            <button>COMPRAR</button>
+            <button><a class="botoncomprabeat" href="beat3.html">COMPRAR</a></button>
 
         </div>
 
@@ -119,40 +126,35 @@
 
 </section>
 
-         <!-- ICONOS BENEFICIOS -->
-        <section class="beneficios">
+        <!-- ICONOS BENEFICIOS -->
+<section class="beneficios">
 
-    <div class="beneficio">
+    <div class="beneficio" data-aos="zoom-in">
 
         <img src="img/rayo.png" class="img-icon">
 
         <h4>SUBIDA GRATIS</h4>
 
-        
-
     </div>
 
-    <div class="beneficio">
+    <div class="beneficio" data-aos="zoom-in" data-aos-delay="200">
 
         <img src="img/file.png" class="img-icon">
 
         <h4>DESCARGA INMEDIATA</h4>
 
-         
-
     </div>
 
-    <div class="beneficio">
+    <div class="beneficio" data-aos="zoom-in" data-aos-delay="400">
 
         <img src="img/balanza.png" class="img-icon">
 
         <h4>LICENCIAS CLARAS</h4>
 
-        
-
     </div>
 
 </section>
+
     </main>
 
         <!-- FOOTER -->
@@ -164,6 +166,12 @@
             </h2>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init();
+</script>
 
     </body>
 
