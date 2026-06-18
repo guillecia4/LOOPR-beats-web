@@ -7,6 +7,11 @@
 
     <title>Loopr</title>
 
+    <link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -95,6 +100,54 @@
 
 </section>
 
+<section class="hits-loopr">
+
+    <h2>DEL BEAT AL HIT</h2>
+
+    <p>
+        Artistas que encontraron su sonido en Loopr.
+    </p>
+
+    <div class="swiper miSwiper">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+
+                <video controls>
+                    <source src="videos/trap1.mp4">
+                </video>
+
+                <h3>Como Roe - cero*</h3>
+
+            </div>
+
+            <div class="swiper-slide">
+
+                <video controls>
+                    <source src="videos/trap2.mp4">
+                </video>
+
+                <h3>Esta va porque te quiero - huntr</h3>
+
+            </div>
+
+            <div class="swiper-slide">
+
+                <video controls>
+                    <source src="videos/trap3.mp4">
+                </video>
+
+                <h3>El invasor - huntr</h3>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
     </main>
 
 
@@ -107,6 +160,16 @@
             </h2>
         </div>
     </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+var swiper = new Swiper(".miSwiper", {
+    slidesPerView: 3,
+    spaceBetween: 25,
+    loop: true
+});
+</script>
 
     </body>
 

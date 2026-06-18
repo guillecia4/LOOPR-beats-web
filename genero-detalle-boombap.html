@@ -7,38 +7,39 @@
 
     <title>Loopr</title>
 
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
- <header>
-   
+<header>
+
     <div class="logo">
         <h1>LOOPR</h1>
     </div>
 
-
     <div class="menu">
 
-         <nav>
+        <nav>
             <a href="explorar.html">EXPLORAR</a>
             <a href="generos.html">GÉNEROS</a>
             <a href="soporte.html">SOPORTE</a>
         </nav>
 
-    <a href="subir-beat.html" class="btn-header">
-    SUBIR BEAT
-</a>
+        <a href="subir-beat.html" class="btn-header">
+            SUBIR BEAT
+        </a>
 
- </div>
+    </div>
 
+</header>
 
-    </header>
+<main>
 
-    <main>
-
-        <section class="genero-detalle">
+<section class="genero-detalle">
 
     <a href="generos.html" class="volver">
         ← VOLVER A GÉNEROS
@@ -95,19 +96,83 @@
 
 </section>
 
-    </main>
+<section class="hits-loopr">
 
+    <h2>DEL BEAT AL HIT</h2>
 
-                  <!-- FOOTER -->
-    <footer>
-        <div class="info">
+    <p>
+        Artistas que encontraron su sonido en Loopr.
+    </p>
 
-            <h2>
-                Loopr2026 - instagram - tiktok - youtube
-            </h2>
+    <div class="swiper miSwiper">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+
+                <video controls>
+                    <source src="videos/boombap1.mp4">
+                </video>
+
+                <h3>Antes de noviembre - Oney1</h3>
+
+            </div>
+
+            <div class="swiper-slide">
+
+                <video controls>
+                    <source src="videos/boombap2.mp4">
+                </video>
+
+                <h3>Paciencia - Sosa66s</h3>
+
+            </div>
+
+            <div class="swiper-slide">
+
+                <video controls>
+                    <source src="videos/boombap3.mp4">
+                </video>
+
+                <h3>FELIZ EL ANONIMATO - Rompe99</h3>
+
+            </div>
+
         </div>
-    </footer>
 
-    </body>
+    </div>
 
-    </html>
+</section>
+
+</main>
+
+<footer>
+
+    <div class="info">
+
+        <h2>
+            Loopr2026 - instagram - tiktok - youtube
+        </h2>
+
+    </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+
+var swiper = new Swiper(".miSwiper", {
+
+    slidesPerView: 3,
+
+    spaceBetween: 25,
+
+    loop: true
+
+});
+
+</script>
+
+</body>
+</html>
