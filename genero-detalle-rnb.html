@@ -7,8 +7,7 @@
 
     <title>Loopr</title>
 
-    <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.css">
 
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -18,22 +17,22 @@
 <header>
 
 <div class="logo">
-        <h1><img class="logo" src="img/logo.png" alt=""></h1>
-    </div>
+    <h1><img class="logo" src="img/logo.png" alt=""></h1>
+</div>
 
-    <div class="menu">
+<div class="menu">
 
-        <nav>
-            <a href="explorar.html">EXPLORAR</a>
-            <a href="generos.html">GÉNEROS</a>
-            <a href="soporte.html">SOPORTE</a>
-        </nav>
+    <nav>
+        <a href="explorar.html">EXPLORAR</a>
+        <a href="generos.html">GÉNEROS</a>
+        <a href="soporte.html">SOPORTE</a>
+    </nav>
 
-        <a href="subir-beat.html" class="btn-header">
-            SUBIR BEAT
-        </a>
+    <a href="subir-beat.html" class="btn-header">
+        SUBIR BEAT
+    </a>
 
-    </div>
+</div>
 
 </header>
 
@@ -104,41 +103,35 @@
         Artistas que encontraron su sonido en Loopr.
     </p>
 
-    <div class="swiper miSwiper">
+    <div class="videos-fancybox">
 
-        <div class="swiper-wrapper">
+        <a href="videos/rnb1.mp4" data-fancybox="rnb-videos" data-caption="Hazmelo - Tiago PZK" class="video-card">
+            <video muted>
+                <source src="videos/rnb1.mp4">
+            </video>
+            <h3>Hazmelo - Tiago PZK</h3>
+        </a>
 
-            <div class="swiper-slide">
+        <a href="videos/rnb2.mp4" data-fancybox="rnb-videos" data-caption="CRUZ - Trueno & Feid" class="video-card">
+            <video muted>
+                <source src="videos/rnb2.mp4">
+            </video>
+            <h3>CRUZ - Trueno & Feid</h3>
+        </a>
 
-                <video controls>
-                    <source src="videos/rnb1.mp4">
-                </video>
+        <a href="videos/rnb3.mp4" data-fancybox="rnb-videos" data-caption="Hablando de love - Tiago PZK" class="video-card">
+            <video muted>
+                <source src="videos/rnb3.mp4">
+            </video>
+            <h3>Hablando de love - Tiago PZK</h3>
+        </a>
 
-                <h3>Hazmelo - Tiago PZK</h3>
-
-            </div>
-
-            <div class="swiper-slide">
-
-                <video controls>
-                    <source src="videos/rnb2.mp4">
-                </video>
-
-                <h3>CRUZ - Trueno & Feid</h3>
-
-            </div>
-
-            <div class="swiper-slide">
-
-                <video controls>
-                    <source src="videos/rnb3.mp4">
-                </video>
-
-                <h3>Hablando de love - Tiago PZK</h3>
-
-            </div>
-
-        </div>
+        <a href="videos/rnb4.mp4" data-fancybox="rnb-videos" data-caption="HOOD - Trueno" class="video-card">
+            <video muted>
+                <source src="videos/rnb4.mp4">
+            </video>
+            <h3>HOOD - Trueno</h3>
+        </a>
 
     </div>
 
@@ -158,20 +151,10 @@
 
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script>
 
 <script>
-
-var swiper = new Swiper(".miSwiper", {
-
-    slidesPerView: 3,
-
-    spaceBetween: 25,
-
-    loop: true
-
-});
-
+Fancybox.bind("[data-fancybox]", {});
 </script>
 
 </body>

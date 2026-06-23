@@ -7,43 +7,38 @@
 
     <title>Loopr</title>
 
-    <link
-rel="stylesheet"
-href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.css">
 
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
- <header>
+<header>
    
-<div class="logo">
+    <div class="logo">
         <h1><img class="logo" src="img/logo.png" alt=""></h1>
     </div>
 
-
     <div class="menu">
 
-         <nav>
+        <nav>
             <a href="explorar.html">EXPLORAR</a>
             <a href="generos.html">GÉNEROS</a>
             <a href="soporte.html">SOPORTE</a>
         </nav>
 
-    <a href="subir-beat.html" class="btn-header">
-    SUBIR BEAT
-</a>
+        <a href="subir-beat.html" class="btn-header">
+            SUBIR BEAT
+        </a>
 
- </div>
+    </div>
 
+</header>
 
-    </header>
+<main>
 
-    <main>
-
-        <section class="genero-detalle">
+<section class="genero-detalle">
 
     <a href="generos.html" class="volver">
         ← VOLVER A GÉNEROS
@@ -108,69 +103,58 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
         Artistas que encontraron su sonido en Loopr.
     </p>
 
-    <div class="swiper miSwiper">
+    <div class="videos-fancybox">
 
-        <div class="swiper-wrapper">
+        <a href="videos/trap1.mp4" data-fancybox="trap-videos" data-caption="Como Roe - cero*" class="video-card">
+            <video muted>
+                <source src="videos/trap1.mp4">
+            </video>
+            <h3>Como Roe - cero*</h3>
+        </a>
 
-            <div class="swiper-slide">
+        <a href="videos/trap2.mp4" data-fancybox="trap-videos" data-caption="Esta va porque te quiero - huntr" class="video-card">
+            <video muted>
+                <source src="videos/trap2.mp4">
+            </video>
+            <h3>Esta va porque te quiero - huntr</h3>
+        </a>
 
-                <video controls>
-                    <source src="videos/trap1.mp4">
-                </video>
+        <a href="videos/trap3.mp4" data-fancybox="trap-videos" data-caption="El invasor - huntr" class="video-card">
+            <video muted>
+                <source src="videos/trap3.mp4">
+            </video>
+            <h3>El invasor - huntr</h3>
+        </a>
 
-                <h3>Como Roe - cero*</h3>
-
-            </div>
-
-            <div class="swiper-slide">
-
-                <video controls>
-                    <source src="videos/trap2.mp4">
-                </video>
-
-                <h3>Esta va porque te quiero - huntr</h3>
-
-            </div>
-
-            <div class="swiper-slide">
-
-                <video controls>
-                    <source src="videos/trap3.mp4">
-                </video>
-
-                <h3>El invasor - huntr</h3>
-
-            </div>
-
-        </div>
+        <a href="videos/trap4.mp4" data-fancybox="trap-videos" data-caption="Friendzone :( - slimesanti" class="video-card">
+    <video muted>
+        <source src="videos/trap4.mp4">
+    </video>
+    <h3>Friendzone :( - slimesanti</h3>
+</a>
 
     </div>
 
 </section>
 
-    </main>
+</main>
 
+<footer>
+    <div class="info">
 
-                  <!-- FOOTER -->
-    <footer>
-        <div class="info">
+        <h2>
+            Loopr2026 - instagram - tiktok - youtube
+        </h2>
 
-            <h2>
-                Loopr2026 - instagram - tiktok - youtube
-            </h2>
-        </div>
-    </footer>
+    </div>
+</footer>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script>
 
 <script>
-var swiper = new Swiper(".miSwiper", {
-    slidesPerView: 3,
-    spaceBetween: 25,
-    loop: true
-});
+Fancybox.bind("[data-fancybox]", {});
 </script>
 
-    </body>
+</body>
 
-    </html>
+</html>

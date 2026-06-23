@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Loopr</title>
 
     <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.css">
 
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -17,7 +16,7 @@
 
 <header>
 
-<div class="logo">
+    <div class="logo">
         <h1><img class="logo" src="img/logo.png" alt=""></h1>
     </div>
 
@@ -104,41 +103,59 @@
         Artistas que encontraron su sonido en Loopr.
     </p>
 
-    <div class="swiper miSwiper">
+    <div class="videos-fancybox">
 
-        <div class="swiper-wrapper">
+        <a href="videos/boombap1.mp4"
+           data-fancybox="boombap-videos"
+           data-caption="Antes de noviembre - Oney1"
+           class="video-card">
 
-            <div class="swiper-slide">
+            <video muted>
+                <source src="videos/boombap1.mp4">
+            </video>
 
-                <video controls>
-                    <source src="videos/boombap1.mp4">
-                </video>
+            <h3>Antes de noviembre - Oney1</h3>
 
-                <h3>Antes de noviembre - Oney1</h3>
+        </a>
 
-            </div>
+        <a href="videos/boombap2.mp4"
+           data-fancybox="boombap-videos"
+           data-caption="Paciencia - Sosa66s"
+           class="video-card">
 
-            <div class="swiper-slide">
+            <video muted>
+                <source src="videos/boombap2.mp4">
+            </video>
 
-                <video controls>
-                    <source src="videos/boombap2.mp4">
-                </video>
+            <h3>Paciencia - Sosa66s</h3>
 
-                <h3>Paciencia - Sosa66s</h3>
+        </a>
 
-            </div>
+        <a href="videos/boombap3.mp4"
+           data-fancybox="boombap-videos"
+           data-caption="FELIZ EL ANONIMATO - Rompe99"
+           class="video-card">
 
-            <div class="swiper-slide">
+            <video muted>
+                <source src="videos/boombap3.mp4">
+            </video>
 
-                <video controls>
-                    <source src="videos/boombap3.mp4">
-                </video>
+            <h3>FELIZ EL ANONIMATO - Rompe99</h3>
 
-                <h3>FELIZ EL ANONIMATO - Rompe99</h3>
+        </a>
 
-            </div>
+        <a href="videos/boombap4.mp4"
+           data-fancybox="boombap-videos"
+           data-caption="Crazy - Fazzini & Franky style"
+           class="video-card">
 
-        </div>
+            <video muted>
+                <source src="videos/boombap4.mp4">
+            </video>
+
+            <h3>Crazy - Fazzini & Franky style</h3>
+
+        </a>
 
     </div>
 
@@ -158,20 +175,10 @@
 
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script>
 
 <script>
-
-var swiper = new Swiper(".miSwiper", {
-
-    slidesPerView: 3,
-
-    spaceBetween: 25,
-
-    loop: true
-
-});
-
+Fancybox.bind("[data-fancybox]", {});
 </script>
 
 </body>

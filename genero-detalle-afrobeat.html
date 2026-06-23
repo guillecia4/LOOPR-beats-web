@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Loopr</title>
 
     <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.css">
 
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -17,7 +16,7 @@
 
 <header>
 
-<div class="logo">
+    <div class="logo">
         <h1><img class="logo" src="img/logo.png" alt=""></h1>
     </div>
 
@@ -101,44 +100,62 @@
     <h2>DEL BEAT AL HIT</h2>
 
     <p>
-          Artistas que encontraron su sonido en Loopr.
+        Artistas que encontraron su sonido en Loopr.
     </p>
 
-    <div class="swiper miSwiper">
+    <div class="videos-fancybox">
 
-        <div class="swiper-wrapper">
+        <a href="videos/afrobeat1.mp4"
+           data-fancybox="afrobeat-videos"
+           data-caption="Lagos love - Tems"
+           class="video-card">
 
-            <div class="swiper-slide">
+            <video muted>
+                <source src="videos/afrobeat1.mp4">
+            </video>
 
-                <video controls>
-                    <source src="videos/afrobeat1.mp4">
-                </video>
+            <h3>Lagos love - Tems</h3>
 
-                <h3>Lagos love - Tems</h3>
+        </a>
 
-            </div>
+        <a href="videos/afrobeat2.mp4"
+           data-fancybox="afrobeat-videos"
+           data-caption="Go Again - Zaylevelten"
+           class="video-card">
 
-            <div class="swiper-slide">
+            <video muted>
+                <source src="videos/afrobeat2.mp4">
+            </video>
 
-                <video controls>
-                    <source src="videos/afrobeat2.mp4">
-                </video>
+            <h3>Go Again - Zaylevelten</h3>
 
-                <h3>Go Again - Zaylevelten</h3>
+        </a>
 
-            </div>
+        <a href="videos/afrobeat3.mp4"
+           data-fancybox="afrobeat-videos"
+           data-caption="SUPAHMAN - Alu"
+           class="video-card">
 
-            <div class="swiper-slide">
+            <video muted>
+                <source src="videos/afrobeat3.mp4">
+            </video>
 
-                <video controls>
-                    <source src="videos/afrobeat3.mp4">
-                </video>
+            <h3>SUPAHMAN - Alu</h3>
 
-                <h3>SUPAHMAN - Alu</h3>
+        </a>
 
-            </div>
+        <a href="videos/afrobeat4.mp4"
+           data-fancybox="afrobeat-videos"
+           data-caption="Wizkid - Joro"
+           class="video-card">
 
-        </div>
+            <video muted>
+                <source src="videos/afrobeat4.mp4">
+            </video>
+
+            <h3>Wizkid - Joro</h3>
+
+        </a>
 
     </div>
 
@@ -158,20 +175,10 @@
 
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script>
 
 <script>
-
-var swiper = new Swiper(".miSwiper", {
-
-    slidesPerView: 3,
-
-    spaceBetween: 25,
-
-    loop: true
-
-});
-
+Fancybox.bind("[data-fancybox]", {});
 </script>
 
 </body>
